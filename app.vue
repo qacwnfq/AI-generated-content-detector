@@ -1,6 +1,18 @@
 <template>
   <div class="container">
     <h1>AI Content Detector</h1>
+
+    <!-- Introduction -->
+    <div class="satirical-intro">
+      <p>Are you a teacher or professor? Are you tired of not knowing if your students are cheating?</p>
+      <p>Maybe you hired a contractor to generate some content for you, and you want to know whether they really worked for all those hours they billed you.</p>
+      <p>Well, fear no more, the AI-content-detector is here to save the day!</p>
+      <p>Our advanced AI technology boasts a 99.9% accuracy rate, or so we hope. You're free to test the accuracy yourself, but be warned that testing your own texts might reveal that you're not human but AI.</p>
+      <p>Contact our Sales team if you wnat to unlock the full power of AI detection!</p>
+    </div>
+
+
+
     <div class="form-group">
       <label for="content">Enter Text to inspect:</label>
       <input type="text" id="content" v-model="textInput" placeholder="Enter text here...">
@@ -128,5 +140,10 @@ button {
   right: 10px;
   font-size: 20px;
   cursor: pointer;
+}
+.satirical-intro {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 20px;
 }
 </style>
