@@ -11,7 +11,7 @@
 
   export default defineNuxtConfig({
     app: {
-      baseURL: '/nAI-generated-content-detector/',
+      baseURL: '/AI-generated-content-detector/',
       buildAssetsDir: 'assets'
     }
   })
