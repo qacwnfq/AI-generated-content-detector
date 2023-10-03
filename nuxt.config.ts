@@ -9,8 +9,9 @@
 //   allowFromAnyOrigin: false
 // })
 
-export default {
-  target: 'static',
-  router: {
-    base: ' http://qacwnfq.github.io/AI-generated-content-detector>'
-  }}
+  export default defineNuxtConfig({
+    app: {
+      baseURL: '/nAI-generated-content-detector/',
+      buildAssetsDir: 'assets'
+    }
+  })
